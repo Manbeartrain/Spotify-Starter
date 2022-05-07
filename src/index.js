@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { MoralisProvider } from "react-moralis";
+import 'flowbite';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId="xxxxxxxx" serverUrl="xxxxxxxx">
+    <MoralisProvider appId="KvFXOSIuzZZmaAMsDrGPpvklLcHTVgfN51v3pKCL" serverUrl="https://8chlzlhr4onn.usemoralis.com:2053/server">
       <BrowserRouter>
         <App />
       </BrowserRouter>
